@@ -1,0 +1,38 @@
+body, ul{margin: 0;padding: 0}
+.main{max-width: 1240px;margin: auto}
+button, input[type="submit"]{
+    background: #808080;
+    padding: 7px;
+}button:hover{
+     background: #101010;
+ }
+button a {text-decoration: none; color:white;}
+/* Navigation */
+div.nav{background: #808080;}
+div.nav ul{ padding:10px 0 ; }
+.nav li{
+    display: inline;
+    padding:10px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+}
+.nav li:hover{
+    background:#303030;
+    cursor: pointer;
+}
+/* Blog Page */
+.posts{list-style: none;  }
+.posts h2, .posts .post-author{
+    margin:0;}
+.posts .post-author{
+    font-style: italic; }
+/* Create Blog page */
+.input input{margin:5px 10px;}
+.input textarea{
+    margin:5px 0;
+    width:100%;
+}
